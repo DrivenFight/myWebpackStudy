@@ -3,8 +3,7 @@ import $ from 'jquery'
 // import './css/index.css'
 import './less/index.less'
 
-
-
+import 'bootstrap/dist/css/bootstrap.css'
 
 $(function () {
   $('ul li:even').css('backgroundColor', 'pink').css("fontSize", 40)
@@ -16,4 +15,4 @@ class Person {
 
 }
 
-console.log(Person.info)
+// console.log(Person.info)
